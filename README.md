@@ -2,6 +2,8 @@ Lexical Normalizer for Historical Middle High and Early New High German
 This project provides a lexical normalizer for historical spellings of Middle High German and Early New High German texts created in German Order Prussia in 14th and 15th centuries. The normalization is performed using a transformer architecture (BART).
 Normalization is carried out with the type-based method. Auxiliary words (such as in=ihn/in or im=ihm/im (from in dem)) can be confused. Words are converted to lowercase. The normalized forms are oriented towards modern spelling; if the word does not have modern spelling, the form the Deutschen Rechtswörterbuch is used.
 
+You may find the model here https://huggingface.co/Antnis/text-normalization-for-german-order-acts/tree/main
+
 WordAcc 89,60
 
 WordAcc OOV 89,65
